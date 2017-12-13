@@ -46,13 +46,11 @@ var dataTypes = ['Charlie', 11, true, {cat: 'meow', dog: 'woof', bird: 'tweet'},
  * It should also have a name attribute with the value of 'Spot'
  */
 
-var dog = {breed: 'Rottweiler', color: 'black', name: 'Spot'};
+var dog = {
 
-function bark(){
-	console.log('Woof!');
-}
-
-bark();
-
-
+	bark: function(){
+		console.log('Woof!');
+	},
+	name: 'Spot',
+};
 
