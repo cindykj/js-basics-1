@@ -47,10 +47,11 @@ var dataTypes = ['Charlie', 11, true, {cat: 'meow', dog: 'woof', bird: 'tweet'},
  */
 
 var dog = {
-
-	bark: function(){
-		console.log('Woof!');
-	},
 	name: 'Spot',
+	bark: function (){
+		console.log('Woof!')
+	}
 };
+
+
 
